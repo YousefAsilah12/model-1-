@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8.3</title>
+</head>
+<style>
+.div{
+  border: black 2px solid;
+}
+#div-1{
+position: absolute;
+height: 100px;
+width: 100px;
+z-index: 0;
+background-color: white;
+}
+#div-2{
+  position: absolute;
+height: 150px;
+width: 100px;
+left:70px;
+top: 70px;
+z-index: 1;
+background-color: white;
+}
+#div-3{
+  position: absolute;
+height: 100px;
+width: 300px;
+top: 200px;
+z-index: 0;
+
+}
+#div-4{
+  position: absolute;
+height: 300px;
+width: 100px;
+left: 200px;
+background-color: white;
+
+
+}
+</style>
+
+<body>
+  <div class="div" id="div-1"> div one</div>
+  <div class="div" id="div-2"> div two</div>
+  <div class="div" id="div-3"> div three</div>
+  <div class="div" id="div-4"> div four</div>
+</body>
+
+</html>
