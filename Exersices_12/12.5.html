@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    background-color: #192733;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    margin-top: 20px;
+  }
+  .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+a{
+  font-size: 20px;
+}
+
+</style>
+
+<body>
+  <p>
+    Lorem ipsum dolor sit <a href="#" class="tooltip">  amet consectetur
+      <span class="tooltiptext"> -------tool tip ------</span></a>
+       adipisicing elit. Maiores eaque, est sed
+    tenetur adipisci illo doloremque
+    soluta sapiente ullam totam eos dolores sunt tempora doloribus ipsum quasi harum corrupti. Saepe?
+  </p>
+</body>
+
+</html>
